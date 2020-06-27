@@ -3,7 +3,7 @@ function my_acf_op_init() {
 if( function_exists('acf_add_options_page') ) {
 	
 	acf_add_options_page(array(
-		'page_title' 	=> __( 'Theme Home Page and General Settings', 'dc_o_page' ),
+		'page_title' 	=> __( 'Theme Home Page and General Settings', 'text-domain' ),
 		'menu_title'	=> __( 'Theme Settings', 'text-domain' ),
 		'menu_slug' 	=> 'theme-general-settings',
 		'icon_url' => 'dashicons-admin-customizer',
